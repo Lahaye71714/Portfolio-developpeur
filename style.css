@@ -717,14 +717,48 @@ h1 {
 }
 .grille-skill {
     display: grid;
-    grid-template: repeat(4,80px) / repeat(2,300px);
+    grid-template: repeat(3,80px) / repeat(3,300px);
     grid-gap: 50px;
-    padding-left: 100px;
+    padding-left: 500px;
 }
    
 .label-skill {
-    font-size: 24px;
+    font-size: 17px;
 }
+.skillA {
+    padding-left: 14px;
+}
+.skillB {
+    padding-left: 17px;
+}
+.skillC {
+    padding-left: 27px;
+}
+.skillD {
+    padding-left: 8px;
+}
+.skillE {
+    padding-left: 12px;
+}
+.skillF {
+    margin-left: -9px;
+}
+.skillG {
+    padding-left: 20px;
+}
+#mysql {
+    width: 100px;
+    height: 100px;
+}
+#docker {
+    width: 100px;
+    height: 100px;
+}
+.dev-icone {
+    width: 70px;
+    height: 70px;
+}
+
 
 /* Medias range */
 
@@ -867,6 +901,10 @@ h1 {
     font-family: 'Abril Fatface', sans-serif;
     font-size: 25px;
     padding-bottom: 10px;
+}
+.sous-titre-section-bloc {
+    font-family: 'Abril Fatface', sans-serif;
+    letter-spacing: 1px;
 }
 
 /* Medias section travail experience */
