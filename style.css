@@ -17,7 +17,7 @@ body {
     width: 300px;
     height: 100vh;
     min-height: 800px;
-    background: #d3b3b0;
+    background: #fa5700;
     position: fixed;
     top: 0;
     left: -300px;
@@ -63,7 +63,7 @@ body {
 .blocs-menu:nth-child(1) {
     width: 100%;
     height: 25%;
-    background: #d3b3b0;
+    background: #fa5700;
 }
 .cercle-portrait {
     margin: 20px 0;
@@ -71,8 +71,8 @@ body {
     height: 150px;
     border-radius: 50%;
     position: relative;
-    box-shadow: 5px 5px 50px #b36663,
-                -5px -5px 50px #b36663; 
+    box-shadow: 5px 5px 50px #fa1100,
+                -5px -5px 50px #fa1100; 
 }
 .cercle-portrait img {
     width: 150px;
@@ -236,8 +236,8 @@ h1 {
 }
 .btn-acc2 {
     background: transparent;
-    border: 2px solid #341513;
-    color: #341513;
+    border: 2px solid #fa5700;
+    color: #fa5700;
     font-weight: 700;
 }
 .medias {
@@ -284,8 +284,8 @@ h1 {
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    box-shadow: 0 0 0 0 #d3b3b0;
-    background: #d3b3b0;
+    box-shadow: 0 0 0 0 #fa5700;
+    background: #fa5700;
     animation: pulse 1.3s infinite;
 }
 @keyframes pulse {
@@ -443,8 +443,8 @@ h1 {
 }
 
 .fond-forme {
-    background: #491f1f;
-    background-image: linear-gradient(to right, #3b1607, #b36663);
+    background: #3b9cf8;
+    background-image: linear-gradient(to right, #3b9cf8, #0213fd);
     width: 2300px;
     height: 1000px;
     position: absolute;
@@ -701,7 +701,7 @@ h1 {
     padding-bottom: 200px;
     border-bottom: 1px dashed #333;
     background: #b36663;
-    background-image: linear-gradient(to right, #3b1607, #b36663);
+    background-image: linear-gradient(to right, #3b9cf8, #1900ff);
     color: #f1f1f1;
     position: relative;
     z-index: -1;
